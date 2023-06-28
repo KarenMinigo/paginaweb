@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    
+<!--Coment-->
+ <head>
+  <title> Página de pececitos</title>
+  <meta charset="UTF-8">
+  <link  href="estilos.css"  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
+ </head>
+
+ <body>
+    <h1>Página de pececitos</h1>
+
+
+    <h3>Imágenes de pececitos</h3>
+    <!--imagen desde internet-->
+    <img src="https://www.nationalgeographic.com.es/medio/2022/12/12/pez-1_624921b9_221212160925_1280x720.jpg">
+
+    <br>
+    <!--imagen desde cpu/computadora-->
+    <img src="imagenes/pececitos.jpg">
+    <!--enlaces externos-->
+    <p>Si quieres ver mas imagenes de pacecito, <a href="https://unsplash.com/es/images/animals/fish" target="_blank"> da click en este enlace</a>.</p>
+    
+    <h3>Lista de pececitos </h3>
+    <p>3 cosas que los pececitos <strong>aman</strong></p>
+       <!--creacion de listas ordenadas -->
+    <ol> <!-- orderd list-->
+        <li>Compañia</li> <!--list item-->
+        <li>Comida</li>
+        <li>colores</li>
+    </ol>
+
+    <!--creacion de listas desordenada -->
+    <p>3 cosas que los pececitos <i>odian</i></p>
+    <ul><!-- Unorderd list-->
+        <li>La soledad</li> <!--list item-->
+        <li>Especies depredasdoras</li>
+        <li>Vibraciones</li>
+    </ul>
+
+    <!--Formularios-->
+
+    <form>
+        <!--Formularios con botones de radio-->
+        <p>¿Tú pez es joven o adulto?</p>
+        <label>
+            <input id="joven" type="radio" value="joven" name="pez_joven" checked>joven    <!--checked es respuesta automatica-->
+        </label>
+        <br>
+        <label>
+            <input id="adulto" type="radio" value="adulto" name="pez_adulto">adulto
+        </label>
+     <!--Formularios con casilla de verificacion-->
+     <p>¿Qué tipo de personalidad tiene tu pez?</p>
+     <label>
+        <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked >Enojon
+     </label>
+    </label>
+     <br>
+    <label>
+       <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+    </label>
+    <br>
+    <label>
+        <input id="feliz" type="checkbox" value="feliz" name="personalidad">Feliz
+     </label>
+ 
+    </form>
+ </body>
+
+ <footer>
+    <p><small> Está pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank" >Tecnolochicas PRO</a></small></p>
+
+ </footer>
+
+</html>

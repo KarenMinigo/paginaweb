@@ -1,0 +1,27 @@
+body { background-color: #f1da74 ; /*Fondo de color de la pagina */
+    color: #122c62;/*color de letras de la pagina*/
+    font-family: 'Raleway', sans-serif; /*Fuente de letra*/
+    
+}
+
+h3{  color: #17a19e;
+    font-size: 23px; /*Tamaño de letra*/
+}
+
+h1, p { 
+    color: #125b7d;
+}
+
+img{
+    width:  400px; /*Ancho de imagen*/
+    height: 280px;/*Altura de imagen*/ 
+    border-style:  double ; /*Marco de imagen*/ 
+    border-color:black;
+    margin-left: 40px;  /*Margin=espacio entre imagenes*/ 
+    margin-bottom: 40px;
+    padding: 25px; /*padding= reduccion de imagenes hacia dentro*/ 
+}
+
+a, small{
+   color:#570f04 ;
+}
